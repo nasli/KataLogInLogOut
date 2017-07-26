@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode8.2
+
+script:
+ - set -o pipefail && xcodebuild -project 'KataLogInLogOut.xcodeproj' -scheme 'KataLogInLogOut' clean build test| xcpretty -c
+
+
