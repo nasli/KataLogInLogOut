@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode8.2
 
 script:
- - set -o pipefail && xcodebuild -project 'KataLogInLogOut.xcodeproj' -scheme 'KataLogInLogOut' -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=10.0,name=iPhone 6' clean test build | xcpretty -c
+- set -o pipefail && xcodebuild -project KataLogInLogOut.xcodeproj -scheme 'KataLogInLogOut' build test | xcpretty -c
