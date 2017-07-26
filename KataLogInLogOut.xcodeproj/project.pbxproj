@@ -414,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KataLogInLogOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nalvarez.KataLogInLogOut;
@@ -426,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KataLogInLogOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nalvarez.KataLogInLogOut;
@@ -507,6 +509,7 @@
 				4059E1B71F28AF34007C3CF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4059E1B81F28AF34007C3CF9 /* Build configuration list for PBXNativeTarget "KataLogInLogOutTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +518,7 @@
 				4059E1BA1F28AF34007C3CF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4059E1BB1F28AF34007C3CF9 /* Build configuration list for PBXNativeTarget "KataLogInLogOutUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +527,7 @@
 				4059E1BD1F28AF34007C3CF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
